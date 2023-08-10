@@ -1,0 +1,29 @@
+OPERATING SYSTEMS
+(manges the hardware and running programs)
+*load and manage processes
+*provide interfaces to hardware via system calls
+*provide a filesystem
+*provide a basic user interface
+
+commonly used 
+Windows
+Unix( family)
+*linux
+*BSD
+*OSX
+
+
+-----------Device driver--------------
+(os plug-in module for controlling a particular device )
+
+
+pre-emptive multitasking
+1.CPU receives interrupt
+2.interrupt stores program counter
+3.interrupt invokes handler 
+3.handler saves rest of process state
+4.handler does its business
+6.handler invokes the scheduler
+7.scheduler selects a process to run
+8.scheduler restores state for that process
+9.scheduler jumps execution to that process

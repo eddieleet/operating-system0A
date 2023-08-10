@@ -1,0 +1,22 @@
+---------------------FILE SYSTEMS-----------
+method of organizing pieces of data on a disk
+
+commonly used 
+NTFS
+-default on Windows
+-supports many advanced features ( journaling , compression and encryption etc)
+
+FAT family
+-default in older Windows and MS-DOS
+-commonly used on flash drives and embedded devices
+-easy to learn 
+
+APFS
+-default in Mac OS X 
+-built to address the many limitations in previously used HFS+
+-has advanced features(snapshots, encryption,compression,crash protection etc)
+
+ext family 
+most commonly used on linux systems
+ext3 introduced journaling
+

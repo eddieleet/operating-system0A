@@ -1,0 +1,14 @@
+system design
+splite our operating system 
+bootloader(the bootloader will load the kernel)
+kernel
+
+bootloader
+*loads basic components into memory
+*puts system in expected state
+*collects information about system
+
+floppy disks
+*ease of use
+*universal support 
+*FAT12 one of the simplest file systems
